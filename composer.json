@@ -10,7 +10,10 @@
     "autoload": {
         "psr-4": {
             "Fan\\HookFunctions\\": "src/"
-        }
+        },
+        "files": [
+            "src/Symfony/console.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
