@@ -11,7 +11,7 @@ declare(strict_types=1);
  */
 namespace Symfony\Component\Console\Helper;
 
-if (extension_loaded('Swoole') && SWOOKE_VERSION_ID < 40810) {
+if (extension_loaded('Swoole') && \SWOOLE_VERSION_ID < 40810) {
     /**
      * 修复使用 Symfony 6 时，因为 Swoole Hook 不支持纳秒级别的问题.
      */
